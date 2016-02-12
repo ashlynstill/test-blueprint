@@ -10,7 +10,7 @@
     "schema": {
       "type": "object",
       "properties": {
-        "images": {
+        "slides": {
           "type": "array",
           "title": "Images",
           "items": {
@@ -18,7 +18,7 @@
             "type": "object",
             "minItems": 2,
             "properties": {
-              "src": {
+              "image": {
                 "title": "Image Url",
                 "type": "string",
                 "required": true
